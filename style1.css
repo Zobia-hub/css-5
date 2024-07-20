@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul{
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 180px;
+}
+
+h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+button{
+    border: 4px solid  skyblue;
+    color: rgb(255, 255, 255);
+    margin: 20px;width: 280px;
+height: 40px;
+font-size: 20px;
+border-radius: 20px;
+cursor: pointer ;
+background: transparent;
+}
